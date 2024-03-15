@@ -8,6 +8,8 @@ let numB=48;
 if(numA<numB){
     let resultado=(numA+numB);
     console.log("El resultado de la suma es de: ",resultado);
+}else if(numA==numB){
+    console.log("La operación no es posible ya que los dos números son del mismo valor");
 }else{
     let resultado=(numA-numB);
     console.log("El resultado de la resta es de: ",resultado);
