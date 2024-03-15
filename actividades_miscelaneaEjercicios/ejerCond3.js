@@ -12,11 +12,8 @@ function encontrarMinMax(num1, num2, num3){
     return{min, max};
 }
 
-
-if(num1>=0 && num2>=0 && num3>=0){
-    const {min, max}=encontrarMinMax(num1,num2,num3);
+const {min, max}=encontrarMinMax(num1,num2,num3);
     console.log("El número menor es: ",min);
     console.log("El número mayor es: ",max);
-}else{
-    console.log("Asegurese de que digito números positivos y no negativos");
-}
+
+
