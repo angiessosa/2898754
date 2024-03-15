@@ -4,6 +4,8 @@ let num=11;
 
 if (num>0){
     console.log("El número ingresado es positivo");
-}else{
+}elseif (num<0){
     console.log("El número ingresado es negativo");
+}else{
+    console.log("El número 0 es de valor nulo");
 }
