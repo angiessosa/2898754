@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menú de Ejercicios</title>
+</head>
+<body>
+
+<p>Elige una opción:</p>
+
+<form action="">
+  <label for="opciones">Elija una opción:</label>
+  <select name="opciones" id="opciones" onchange="mostrarEjercicios()">
+    <option value="">Selecciona una opción</option>
+    <option value="1">Operadores</option>
+    <option value="2">Condicionales</option>
+    <option value="3">Ciclos</option>
+  </select>
+</form>
+
+<div id="ejerciciosOperadores" style="display:none;">
+  <p>Elige un ejercicio:</p>
+
+  <form action="">
+    <label for="ejerciciosOperadores">Elija un ejercicio:</label>
+    <select name="ejerciciosOperadores" id="ejerciciosOperadores">
+      <!-- Las opciones para Hola -->
+      <option value="">Selecciona una opción</option>
+      <option value="1">Área de un triángulo</option>
+      <option value="2">Área de un cubo</option>
+    </select>
+  </form>
+</div>
+
+<div id="ejerciciosCondicionales" style="display:none;">
+  <p>Elige un ejercicio:</p>
+
+  <form action="">
+    <label for="ejerciciosCondicionales">Elija un ejercicio:</label>
+    <select name="ejerciciosCondicionales" id="ejerciciosCondicionales">
+      <!-- Las opciones adicionales para Chao -->
+      <option value="">Selecciona una opción</option>
+      <option value="3">Operación 1</option>
+      <option value="4">Cálculo de interés</option>
+    </select>
+  </form>
+</div>
+
+<div id="ejerciciosCiclos" style="display:none;">
+    <p>Elige un ejercicio:</p>
+  
+    <form action="">
+      <label for="ejerciciosCiclos">Elija un ejercicio:</label>
+      <select name="ejerciciosCiclos" id="ejerciciosCiclos">
+        <!-- Las opciones para Hola -->
+        <option value="">Selecciona una opción</option>
+        <option value="1">numeros del 1 al 100</option>
+        <option value="2">numeros impares del 1 al 100</option>
+      </select>
+    </form>
+  </div>
+
+  <script src="hola.js" defer></script>
+
+</body>
+</html>
