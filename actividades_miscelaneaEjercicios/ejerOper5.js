@@ -2,7 +2,7 @@ console.log("5. Escribir un algoritmo que pida el lado de un cuadrado y muestre 
 console.log("Ingrese el valor del lado del cuadrado: ");
 let lado=3;
 
-let area=(lado*lado);
+let area=Math.pow(lado,2);
 let perimetro=(4*lado);
 
 
